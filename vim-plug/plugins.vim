@@ -8,9 +8,9 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'sheerun/vim-polyglot'                         " Better Syntax Support
-    Plug 'scrooloose/NERDTree'                          " File Explorer
-    Plug 'jiangmiao/auto-pairs'                         " Auto pairs for '(' '[' '{' 
     Plug 'neoclide/coc.nvim', {'branch': 'release'}     " Stable version of coc
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " Install fzf
+    Plug 'junegunn/fzf.vim'                             " Use fzf for fuzzy file search
     Plug 'joshdick/onedark.vim'                         " Use the One Dark Theme
     Plug 'vim-airline/vim-airline'                      " Airline
     Plug 'vim-airline/vim-airline-themes'               " Airline themes
