@@ -10,6 +10,7 @@ let g:coc_global_extensions = [
     \ 'coc-tsserver',
     \ 'coc-vimlsp',
     \ 'coc-phpls',
+    \ 'coc-elixir',
     \ 'coc-css',
     \ 'coc-json',
     \ ]
