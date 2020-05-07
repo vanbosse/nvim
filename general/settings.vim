@@ -26,6 +26,7 @@ set expandtab                           " Converts tabs to spaces
 set ignorecase                          " No case sensitivity please.
 set smartcase                           " Search case sensitive if i'm willing to.
 set incsearch                           " Do incremental search.
+set nohlsearch                          " Don't highlight search
 
 " ----- Formatting -----
 "
